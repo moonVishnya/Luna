@@ -1,0 +1,117 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <ImageView android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@mipmap/moon_logo"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/hide_text_username"
+
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#000000"
+                    android:id="@+id/registration_etUsername" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <EditText android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/hide_text_password"
+
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:id="@+id/registration_etPassword" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:hint="@string/hide_text_email"
+
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:id="@+id/registration_etEmail" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="34dp"
+            android:text="@string/OK"
+            android:id="@+id/registration_confirmBtn"
+            android:textColor="#FFFFFF"
+            android:background="#6f8fc7"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
